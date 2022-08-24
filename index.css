@@ -368,14 +368,122 @@ header {
     background-color: var(--color-background);
 }
 
+.contact-content {
+    position: relative;
+    top: 20vh;
+    left: 25vh;
+    width: 70%;
+    background-color: var(--color-light);
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.contact-content .side-left {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    position: relative;
+    color: var(--color-primary-variant);
+}
 
+.contact-content .side-left::before {
+    position: absolute;
+    content: "";
+    height: 70%;
+    width: 2px;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--color-primary);
+}
 
+.contact-content .side-left .details {
+    margin: 14px;
+    text-align: center;
+}
+.contact-content .side-left .details i {
+    font-size: 30px;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
 
+.side-left .details .topic {
+    font-size: 18px;
+    font-weight: 500;
+}
 
+.side-left .details .txt1, .side-left .details .txt2 {
+    font-size: 14px;
+    color: var(--color-primary-variant);
+}
 
+.side-right {
+    width: 75%;
+    margin-left: 75px;
+}
 
+.side-right .topic-text {
+    font-size: 23px;
+    line-height: 1.5;
+    color: var(--color-primary);
+}
 
+.side-right .input-box {
+    height: 50%;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.side-right .input-box input, .side-right .input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none; 
+    font-size: 16px;
+    background-color: var(--color-info-light);
+    border-radius: 6px;
+    padding: 15px 15px;
+    resize: none;
+    color: var(--color-primary);
+}
+
+.side-right .message-box {
+    min-height: 110px;
+}
+
+.side-right .input-box textarea {
+    padding-top: 6px;
+}
+
+.side-right .button {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.side-right .button input[type="button"]{
+    color: var(--color-primary);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: var(--color-info-light);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.side-right .button input[type="button"]:hover {
+    background-color: var(--color-info-dark);
+    color: var(--color-primary-variant);
+}
 
 /* ======= NOTIFI ========= */
 
