@@ -14,7 +14,7 @@
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
     --color-dark: #363949;
-    --color-light: Urgba(132, 139, 200, 0.18);
+    --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
     --color-background: #f6f6f9;
@@ -305,7 +305,7 @@ header {
     position: absolute;
     top: 72vh;
     left: 30%;
-    transform: translateX(-50%, -50%);
+    transform: translateX(-50%);
     display: flex;
 }
 
@@ -483,6 +483,11 @@ header {
 .side-right .button input[type="submit"]:hover {
     background-color: var(--color-info-dark);
     color: var(--color-primary-variant);
+}
+
+.footer h1 {
+    font-size: 18px;
+    color: var(--color-primary)
 }
 
 /* ======= NOTIFI ========= */
