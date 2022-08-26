@@ -30,7 +30,7 @@
             </header>
             <div class="contact-content">
                 <div class="side-right">
-                    <h1 class="topic-text">Hello Admin!</h1>
+                    <h1 class="topic-text">Hello User!</h1>
                         <div class="button">
                             <a href="login_form.php"><input type="submit" value="Login"></a>
                         </div>
