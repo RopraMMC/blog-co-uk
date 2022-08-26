@@ -14,7 +14,7 @@
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
     --color-dark: #363949;
-    --color-light: rgba(132, 139, 200, 0.18);
+    --color-light: Urgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
     --color-background: #f6f6f9;
@@ -488,8 +488,6 @@ header {
 .footer h1 {
     font-size: 18px;
     color: var(--color-primary);
-    display: flex;
-    align-items: center;
     text-align: center;
 }
 
