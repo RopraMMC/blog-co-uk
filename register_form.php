@@ -28,20 +28,6 @@
                     </ul>
                 </div>
             </header>
-            <div class="contact-content">
-                <div class="side-right">
-                    <h1 class="topic-text">Hello Admin!</h1>
-                        <div class="button">
-                            <input type="submit" value="Login">
-                        </div>
-                        <div class="button">
-                            <input type="submit" value="Register">
-                        </div>
-                        <div class="button">
-                            <input type="submit" value="Log out">
-                        </div>
-                </div>
-            </div>
         </div>
     </div>
 </body>
