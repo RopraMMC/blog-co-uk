@@ -21,9 +21,9 @@
 
                 <div class="menu">
                     <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="blog.html">blog</a></li>
-                        <li><a href="index.html#contact">contact</a></li>
+                        <li><a href="index.php">home</a></li>
+                        <li><a href="blog.php">blog</a></li>
+                        <li><a href="index.php#contact">contact</a></li>
                         <li><a href="#">sign up</a></li>
                         <li><a href="#">sign in</a></li>
                     </ul>
