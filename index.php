@@ -119,7 +119,7 @@
             </div>
         </div>
 
-<?php include 'footer.php';>
+<?php include 'footer.php'; ?>
 
         <!-- TO COPY THE EMAIL AND PHONE NUMBER-->
         <p class="invis" id="text1">support@ropra.co.uk</p>
