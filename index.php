@@ -16,6 +16,7 @@
 </head>
 <body>
 <?php include 'header.php'; ?>
+<br>
             <div class="home-content">
                 <div class="webpage-info">
                     <h3>Welcome to Ropra • Blog</h3>
