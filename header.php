@@ -16,7 +16,7 @@
         <div class="home-page">
             <header>
                 <div class="logo">
-                    <a href="index.html">Ropra • BLOG</a>
+                    <a href="index.php">Ropra • BLOG</a>
                 </div>
 
                 <div class="menu">
