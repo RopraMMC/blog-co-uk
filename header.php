@@ -18,6 +18,7 @@
                 <div class="logo">
                     <a href="index.html">Ropra • BLOG</a>
                 </div>
+
                 <div class="menu">
                     <ul>
                         <li><a href="index.html">home</a></li>
@@ -28,3 +29,5 @@
                     </ul>
                 </div>
             </header>
+        </div>
+    </div>
