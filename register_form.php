@@ -25,10 +25,10 @@
                 <input type="text" name="Email" placeholder="Enter Your Email">
             </div>
             <div class="input-box">
-                input text="password" name="Password" placeholder="Enter Your Password">
+                <input text="password" name="Password" placeholder="Enter Your Password">
             </div>
             <div class="input-box">
-                input text="password" name="cPassword" placeholder="Confirm Your Password">
+                <input text="password" name="cPassword" placeholder="Confirm Your Password">
             </div>
             <div class="button">
                 <input type="submit" value="Register Now">
