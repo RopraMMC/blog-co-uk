@@ -14,27 +14,31 @@
 </head>
 <body>
 <?php include "header.php"; ?>
-    <div class="form-container">
-        <h1 class="topic-text">Register Now</h1>
-        <p>Sign up for completely free today!</p>
-        <form action="" method="POST">
-            <div class="input-box">
-                <input type="text" name="Name" placeholder="Enter Your First And Last Name">
-            </div>
-            <div class="input-box">
-                <input type="text" name="Email" placeholder="Enter Your Email">
-            </div>
-            <div class="input-box">
-                <input text="password" name="Password" placeholder="Enter Your Password">
-            </div>
-            <div class="input-box">
-                <input text="password" name="cPassword" placeholder="Confirm Your Password">
-            </div>
-            <div class="button">
-                <input type="submit" value="Register Now">
-            </div>
-            <div class="login-text">
-                <p>Already have an account? <a href="login.php">Login here</a></p>
+    <div class="register-page">
+        <div class="register-content">
+            <div class="form-container">
+                <h1 class="topic-text">Register Now</h1>
+                <p>Sign up for completely free today!</p>
+                <form action="" method="POST">
+                    <div class="input-box">
+                        <input type="text" name="Name" placeholder="Enter Your First And Last Name">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="Email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="input-box">
+                        <input text="password" name="Password" placeholder="Enter Your Password">
+                    </div>
+                    <div class="input-box">
+                        <input text="password" name="cPassword" placeholder="Confirm Your Password">
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Register Now">
+                    </div>
+                    <div class="login-text">
+                        <p>Already have an account? <a href="login.php">Login here</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
