@@ -12,19 +12,4 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 </head>
 <body>
-    <div class="container">
-        <div class="home-page">
-            <header>
-                <div class="logo">
-                    <a href="index.html">Ropra • BLOG</a>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="blog.html">blog</a></li>
-                        <li><a href="index.html#contact">contact</a></li>
-                        <li><a href="#">sign up</a></li>
-                        <li><a href="#">sign in</a></li>
-                    </ul>
-                </div>
-            </header>
+<?php include "header.php"; ?>
