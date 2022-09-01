@@ -10,20 +10,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- ====== Fontawesome CDN Link ====== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
-    <!-- Adsense-->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5528148247928148"
-            crossorigin="anonymous"></script>
 </head>
 <body>
-<?php include 'header.php'; ?>
-            <div class="contact-content">
-                <div class="side-right">
-                    <h1 class="topic-text">Sorry!</h1>
-                    <p>This website is still under construction.<br>
-                        Please come back later!</p>
-                </div>
-            </div>
-        </div>
-        <?php include 'footer.php';>
-    </div>
-</body>
+<div class="footer">
+        <h1>Copyright © Ropra.co.uk 2022 </h1>
+</div>

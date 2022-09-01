@@ -119,9 +119,7 @@
             </div>
         </div>
 
-        <div class="footer">
-                <h1>Copyright © Ropra.co.uk 2022 </h1>
-        </div>
+<?php include 'footer.php';>
 
         <!-- TO COPY THE EMAIL AND PHONE NUMBER-->
         <p class="invis" id="text1">support@ropra.co.uk</p>
