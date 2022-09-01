@@ -1,0 +1,51 @@
+/* ========== IMPORTS ======= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap');
+
+
+.form-container {
+    width: 75%;
+    margin-left: 75px;
+}
+
+.form-container .topic-text {
+    font-size: 23px;
+    line-height: 1.5;
+    color: var(--color-primary);
+}
+
+.form-container .input-box {
+    height: 50%;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.form-container .input-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: var(--color-info-light);
+    border-radius: 6px;
+    padding: 15px 15px;
+    resize: none;
+    color: var(--color-primary);
+}
+
+.form-container .button input[type="submit"]{
+    color: var(--color-primary);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: var(--color-info-light);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.form-container .button input[type="submit"]:hover {
+    background-color: var(--color-info-dark);
+    color: var(--color-primary-variant);
+}
