@@ -30,12 +30,14 @@
 }
 
 .form-container .topic-text {
+    text-align: center;
     font-size: 23px;
     line-height: 1.5;
     color: var(--color-primary);
 }
 
 .form-container .input-box {
+    align-items: center;
     height: 50%;
     width: 100%;
     margin: 12px 0;
