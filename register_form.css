@@ -25,6 +25,8 @@
 }
 
 .form-container {
+    text-align: center;
+    align-items: center;
     width: 75%;
     margin-left: 75px;
 }
