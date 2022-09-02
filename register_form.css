@@ -13,6 +13,7 @@
 .register-content {
     position: relative;
     top: 20vh;
+    left: 25vh;
     width: 70%;
     background-color: var(--color-light);
     border-radius: 6px;
@@ -27,6 +28,7 @@
     text-align: center;
     align-items: center;
     width: 75%;
+    margin-left: 100px;
 }
 
 .form-container .topic-text {
