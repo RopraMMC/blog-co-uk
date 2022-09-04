@@ -74,3 +74,13 @@
     background-color: var(--color-info-dark);
     color: var(--color-primary-variant);
 }
+
+.form-container form .error-msg {
+    padding: 8px 16px;
+    display: block;
+    background: var(--color-primary-variant);
+    color: var(--color-info-light);
+    border-radius: 6px;
+    font-size: 18px;
+
+}

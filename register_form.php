@@ -1,3 +1,32 @@
+<?php
+
+@include 'config.php';
+
+if(isset($_POST['submit'])) {
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $pass = md5($_POST['password']);
+    $cpass = md5($_POST['cpassword']);
+
+    $select =  "SELECT * FROM user_form where email = '$email' && password = '$pass' ";
+
+    $result = mysqli_query($conn, $select);
+
+    if(mysqli_num_rows($result) > 0) {
+        $error[] = 'user already exists!';
+    }else{
+        if ($pass != $cpass){
+            $error[] = 'passwords not matched';
+        }else {
+            $insert = "INSERT INTO user_form(name, email, password) VALUES('$name', '$email', '$pass')";
+            mysqli_query($conn, $insert);
+            header('location:header.php');
+        }
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +50,13 @@
                     <h1 class="topic-text">Register Now</h1>
                     <p>Sign up for completely free today!</p>
                     <form action="" method="POST">
+                        <?php
+                        if(isset($error)) {
+                            foreach ($error as $error) {
+                                echo '<span class="error-msg">' . $error . '</span>';
+                            }
+                        }
+                        ?>
                         <div class="input-box">
                             <input type="text" name="Name" placeholder="Enter Your First And Last Name">
                         </div>
