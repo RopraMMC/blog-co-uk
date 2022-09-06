@@ -49,40 +49,36 @@ if(isset($_POST['submit'])) {
                 <div class="form-container">
                     <h1 class="topic-text">Register Now</h1>
                     <p>Sign up for completely free today!</p>
-                    <form action="" method="POST">
-                        <?php
-                        if(isset($error)) {
-                            foreach ($error as $error) {
-                                echo '<span class="error-msg">' . $error . '</span>';
-                            }
-                        }
-                        ?>
-                        <div class="input-box">
-                            <input type="text" name="Name" placeholder="Enter Your First And Last Name">
-                        </div>
-                        <div class="input-box">
-                            <input type="text" name="Username" placeholder="Enter Your Username">
-                        </div>
-                        <div class="input-box">
-                            <input type="text" name="Email" placeholder="Enter Your Email">
-                        </div>
-                        <div class="input-box">
-                            <input text="password" name="Password" placeholder="Enter Your Password">
-                        </div>
-                        <div class="input-box">
-                            <input text="password" name="cPassword" placeholder="Confirm Your Password">
-                        </div>
-                        <div class="button">
-                            <input type="submit" value="Register Now">
-                        </div>
-                        <br>
-                        <div class="login-text">
-                            <p>Already have an account? <a href="login.php">Login here</a></p>
-                        </div>
+                    <div class="sign-up-form">
+                            <form action="" method="POST">
+                                <div class="input-box">
+                                    <input type="text" name="Name" placeholder="Enter Your First And Last Name">
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" name="Uid" placeholder="Enter Your Username">
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" name="Email" placeholder="Enter Your Email">
+                                </div>
+                                <div class="input-box">
+                                    <input text="password" name="Password" placeholder="Enter Your Password">
+                                </div>
+                                <div class="input-box">
+                                    <input text="password" name="cPassword" placeholder="Confirm Your Password">
+                                </div>
+                                <div class="button">
+                                    <input type="submit" value="Register Now">
+                                </div>
+                                <br>
+                                <div class="login-text">
+                                    <p>Already have an account? <a href="login.php">Login here</a></p>
+                                </div>
+                            </form>
                     </div>
                 </div>
             </div>
         </div>
-        <?php include 'footer.php'; ?>
     </div>
+    <?php include 'footer.php'; ?>
+</div>
 </body>
