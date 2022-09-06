@@ -20,7 +20,7 @@ if(isset($_POST['submit'])) {
         }else {
             $insert = "INSERT INTO user_form(name, email, password) VALUES('$name', '$email', '$pass')";
             mysqli_query($conn, $insert);
-            header('location:header.php');
+            header('location:login_form.php');
         }
     }
 }
@@ -61,6 +61,9 @@ if(isset($_POST['submit'])) {
                             <input type="text" name="Name" placeholder="Enter Your First And Last Name">
                         </div>
                         <div class="input-box">
+                            <input type="text" name="Username" placeholder="Enter Your Username">
+                        </div>
+                        <div class="input-box">
                             <input type="text" name="Email" placeholder="Enter Your Email">
                         </div>
                         <div class="input-box">
@@ -72,6 +75,7 @@ if(isset($_POST['submit'])) {
                         <div class="button">
                             <input type="submit" value="Register Now">
                         </div>
+                        <br>
                         <div class="login-text">
                             <p>Already have an account? <a href="login.php">Login here</a></p>
                         </div>

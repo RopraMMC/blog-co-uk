@@ -20,7 +20,7 @@
                 <div class="form-container">
                     <h1 class="topic-text">Login Now</h1>
                     <p>Login to your account today!</p>
-                    <form action="" method="POST">
+                    <form action="signup.inc.php" method="POST">
                         <div class="input-box">
                             <input type="text" name="Email" placeholder="Enter Your Email">
                         </div>
@@ -30,6 +30,7 @@
                         <div class="button">
                             <input type="submit" value="Login Now">
                         </div>
+                        <br>
                         <div class="login-text">
                             <p>Don't have an account? <a href="register_form.php">Register here</a></p>
                         </div>

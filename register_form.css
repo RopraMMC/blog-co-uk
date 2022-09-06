@@ -76,11 +76,11 @@
 }
 
 .form-container form .error-msg {
-    padding: 8px 16px;
+    margin:10px 0;
     display: block;
-    background: var(--color-primary-variant);
-    color: var(--color-info-light);
-    border-radius: 6px;
-    font-size: 18px;
-
+    background: crimson;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
 }
